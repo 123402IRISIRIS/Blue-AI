@@ -1,3 +1,4 @@
+
 💙 Blue — AI Companion for Teens (Safety-First Architecture)
 
 A safety-first AI companion designed for teens (10–18), combining real-time conversations, multi-layer risk detection, and evidence-based screening to provide a safe first step toward support.
@@ -108,7 +109,8 @@ Blue combines:
 🛡️ Safety-first architecture
 📊 Evidence-based screening
 🌐 Real-world support pathways
-🚀 Getting Started (for Developers) git clone https://github.com/123402IRISIRIS/Blue-AI
+🚀 Getting Started (for Developers)
+git clone https://github.com/123402IRISIRIS/Blue-AI
 cd Blue-AI
 npm install
 npm run dev
