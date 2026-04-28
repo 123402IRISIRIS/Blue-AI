@@ -1,0 +1,33 @@
+{
+  "name": "Blue - Your AI Companion",
+  "short_name": "Blue AI",
+  "description": "Safe AI companion for teen mental health support",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F0F14",
+  "theme_color": "#614BFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://ucarecdn.com/5e8c6bd4-3eb6-4b9f-8149-da7ac23a4468/-/format/auto/",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://ucarecdn.com/5e8c6bd4-3eb6-4b9f-8149-da7ac23a4468/-/format/auto/",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "social"],
+  "screenshots": [
+    {
+      "src": "https://ucarecdn.com/3f6f7719-ebb2-47fd-9c49-65f04c6ea9e3/-/format/auto/",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
