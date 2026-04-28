@@ -106,9 +106,13 @@ or adult users
 Blue combines:
 
 🤖 AI conversation
+
 🛡️ Safety-first architecture
+
 📊 Evidence-based screening
+
 🌐 Real-world support pathways
+
 🚀 Getting Started (for Developers)
 git clone https://github.com/123402IRISIRIS/Blue-AI
 cd Blue-AI
