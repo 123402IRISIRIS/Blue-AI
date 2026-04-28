@@ -4,20 +4,20 @@ A safety-first AI companion designed for teens (10–18), combining real-time co
 
 🌐 Live Demo: https://www.ai-blue.org/
 
-🌱 Why Blue Exists
+## 🌱 Why Blue Exists
 
 Many teenagers struggle silently.
 
-Not because they don’t want to talk —
+Not because they don’t want to talk —  
 but because they don’t feel safe to.
 
 Existing solutions are often:
 
-not designed specifically for teens
-lacking real safety systems
-or disconnected from real-world support
+- Not designed specifically for teens
+- Lacking real safety systems
+- Disconnected from real-world support
 
-Blue was built to change that.
+**Blue was built to change that.**
 
 🧠 What Blue Does
 
