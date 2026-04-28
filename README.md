@@ -1,133 +1,114 @@
-# Blue - AI Companion for Teens
+💙 Blue — AI Companion for Teens (Safety-First Architecture)
 
-Blue is a compassionate AI companion designed specifically for teenagers, providing emotional support and crisis detection capabilities.
+A safety-first AI companion designed for teens (10–18), combining real-time conversations, multi-layer risk detection, and evidence-based screening to provide a safe first step toward support.
 
-## 🌟 Features
+🌐 Live Demo: https://www.ai-blue.org/
 
-- **💬 Simple Chat Interface** - Clean, WhatsApp-style chat experience with Blue
-- **😊 Emoji Support** - Express yourself with a wide range of emojis
-- **🎬 GIF Integration** - Send GIFs to share emotions and reactions
-- **🚨 Crisis Detection** - Automatic detection of distress signals with immediate support resources
-- **🔔 Notifications** - Stay connected with notification alerts
-- **🌐 Global Crisis Support** - Database of crisis helplines worldwide
+🌱 Why Blue Exists
 
-## 🚀 Getting Started
+Many teenagers struggle silently.
 
-### Prerequisites
+Not because they don’t want to talk —
+but because they don’t feel safe to.
 
-- Node.js 18+ installed
-- PostgreSQL database (provided via DATABASE_URL environment variable)
+Existing solutions are often:
 
-### Installation
+not designed specifically for teens
+lacking real safety systems
+or disconnected from real-world support
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd blue-ai-companion
-```
+Blue was built to change that.
 
-2. Install dependencies:
-```bash
+🧠 What Blue Does
+
+Blue provides a safe, judgment-free space where teens can:
+
+talk openly
+reflect on their emotions
+feel heard
+and be guided toward appropriate support when needed
+⚙️ System Architecture (High-Level)
+
+Blue is not just a chatbot — it is a multi-layer AI system:
+
+1️⃣ Conversation Layer
+Real-time AI chat interface
+Natural language understanding
+Context-aware responses
+2️⃣ AI & Safety Engine
+Tone and sentiment analysis
+Context consistency checks
+Contradiction detection
+Prank / non-serious input filtering
+3️⃣ Risk Assessment Layer
+Evidence-based screening integration:
+PHQ-9 (depression screening)
+GAD-7 (anxiety screening)
+Risk classification:
+Low
+Moderate
+High
+Critical
+
+⚠️ These tools are used as guidance, not diagnosis.
+
+4️⃣ Response System
+Adaptive, age-appropriate replies
+Empathetic conversation design
+Context-aware guidance
+5️⃣ Support & Escalation Layer
+Crisis-aware logic
+Escalation only when multiple conditions are met
+Avoids false alarms
+Provides:
+Localized crisis resources
+Trusted adult guidance
+Professional support pathways
+6️⃣ Human Oversight
+Safety review for high-risk cases
+Continuous improvement of models and systems
+Human-in-the-loop when needed
+🔐 Safety First (Core Principle)
+
+Blue is built with safety as the foundation, not an afterthought.
+
+Multi-layer Safety System
+AI analysis + rule-based validation
+Multi-factor risk detection
+Anti-prank safeguards
+Privacy by Design
+Minimal data collection
+Secure handling of conversations
+User protection prioritized
+Responsible Escalation
+No automatic panic responses
+No false crisis alerts
+Only triggers when conditions are clearly met
+🌍 Global Accessibility
+Supports users across 190+ countries
+Multi-language capabilities
+Location-aware resource recommendations
+🧪 Tech Stack (Example)
+Frontend: React
+Backend / API: Node.js / API routes
+AI Model: OpenAI (GPT-based)
+Database: (if applicable)
+Hosting: (Vercel / cloud infrastructure)
+💡 What Makes Blue Different
+
+Most platforms focus on:
+
+mindfulness
+general chat
+or adult users
+
+Blue combines:
+
+🤖 AI conversation
+🛡️ Safety-first architecture
+📊 Evidence-based screening
+🌐 Real-world support pathways
+🚀 Getting Started (for Developers) git clone https://github.com/123402IRISIRIS/Blue-AI
+cd Blue-AI
 npm install
-```
-
-3. Set up environment variables:
-Create a `.env.local` file in the root directory with:
-```
-DATABASE_URL=your_postgres_connection_string
-```
-
-4. Run the development server:
-```bash
 npm run dev
-```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🏗️ Project Structure
-
-```
-/apps
-  /web
-    /src
-      /app
-        /api              # Backend API routes
-          /chat           # AI chat endpoint
-          /crisis-detection  # Crisis detection logic
-          /get-crisis-resources  # Crisis resource lookup
-        layout.jsx        # Root layout
-        page.jsx          # Main chat page
-      /components
-        ChatWindow.jsx    # Main chat interface
-```
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React, Next.js, Tailwind CSS
-- **Backend**: Node.js, Next.js API Routes
-- **Database**: PostgreSQL with crisis lines and distress signals tables
-- **AI**: Integration with AI models for conversation and crisis detection
-- **APIs**: Tenor GIF API
-
-## 🔐 Environment Variables
-
-- `DATABASE_URL` - PostgreSQL connection string
-- `APP_URL` - Application URL (auto-set by platform)
-- `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` - For location services (optional)
-
-## 📦 Database Schema
-
-### crisis_lines
-Stores global crisis helpline information:
-- Country, phone number, service name
-- Hours of operation
-- Email, website
-- Geographic coordinates
-
-### distress_signals
-Logs detected crisis situations:
-- User information
-- Message content
-- Risk level assessment
-- Associated crisis line
-- Email notification status
-
-## 🎨 Interface
-
-Blue features a clean, WhatsApp-inspired interface:
-- **Top Left**: Blue logo and online status
-- **Top Right**: Notification bell with active indicator
-- **Center**: Chat messages area with smooth scrolling
-- **Bottom**: Message input with emoji and GIF picker
-
-## 🤝 Contributing
-
-This project is designed to help teenagers in need. When contributing:
-
-1. Keep the interface simple and teen-friendly
-2. Maintain crisis detection accuracy
-3. Ensure privacy and data protection
-4. Test thoroughly before submitting PRs
-
-## 📄 License
-
-This project is built with care to support mental health. Please use responsibly.
-
-## 🆘 Crisis Resources
-
-If you or someone you know is in crisis:
-- **USA**: National Suicide Prevention Lifeline: 988
-- **UK**: Samaritans: 116 123
-- **International**: Find your local crisis line at https://findahelpline.com
-
-## 💙 About Blue
-
-Blue is more than just an AI - it's a supportive companion designed to:
-- Listen without judgment
-- Provide emotional support
-- Connect users with professional help when needed
-- Be available 24/7
-
----
-
-**Note**: Blue is a support tool and does not replace professional mental health services. Always seek professional help for serious concerns.
